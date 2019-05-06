@@ -1,4 +1,5 @@
 # author: Murtada Al-Habib
+# company name: My Company Limited
 import time
 import pandas as pd
 import numpy as np
