@@ -50,7 +50,7 @@ def get_filters():
             break
 
 
-    print('-'*40)
+    printSplit()
     return city, month, day
 
 # a function to load data to data frame
@@ -118,7 +118,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    printSplit()
 
 # a function to compute stations statistics
 def station_stats(df):
@@ -216,6 +216,11 @@ def find_top_occurance(df,column_name):
     top_occurance = df[column_name].value_counts().index
     # return top value in index 0
     return top_occurance[0]
+
+# a function to print a splitter
+def printSplit():
+    print('-'*40)
+
 
 # main function
 def main():
