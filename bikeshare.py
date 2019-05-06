@@ -209,6 +209,12 @@ def display_data(df):
 
     print('-'*40)
 
+
+
+# a function to print a splitter
+def printSplit():
+    print('-'*40)
+
 # a function to find top occurence of any column
 def find_top_occurance(df,column_name):
 
@@ -217,11 +223,7 @@ def find_top_occurance(df,column_name):
     # return top value in index 0
     return top_occurance[0]
 
-# a function to print a splitter
-def printSplit():
-    print('-'*40)
-
-
+    
 # main function
 def main():
     while True:
