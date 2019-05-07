@@ -1,17 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+7th of May, 2019.
 
 ### Project Title
-Replace the Project Title
+Bike database analysis
 
 ### Description
-Describe what your project is about and what it does
+The project is used to analyze basic bike rental database in 3 different cities
 
 ### Files used
-Include the files used
+Input files are 3 .csv files of bike rental data
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
-### updates for git project
-this is the updated line for git project
+Udacity training resources.
